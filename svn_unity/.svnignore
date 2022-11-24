@@ -5,7 +5,7 @@
 # Put this file in your svn repository root path, then run these commands:
 #
 # cd <repo_path>
-# svn propset svn:ignore -F .svnignore .
+# svn propset svn:ignore -R -F .svnignore .
 #
 
 # Ignore this file
