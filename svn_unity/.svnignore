@@ -1,0 +1,61 @@
+# Editied from https://github.com/areyoutoo/Unity3D-EmptyProject
+
+# How to use this file
+# svn doesn't have a ignore configuration file. We have to use a command instead.
+# Put this file in your svn repository root path, then run these commands:
+#
+# cd <repo_path>
+# svn propset svn:ignore -F .svnignore .
+#
+
+# Ignore this file
+.svnignore
+
+# ========================================================================
+# OS files
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+
+# ========================================================================
+# Generated files
+*.suo
+*.user
+*.sln.docstates
+*.csproj
+*.pidb
+*.sln
+*.unityproj
+*.userprefs
+
+# ========================================================================
+# Unity generated files - partially redundant to above, if you need to be more discriminating
+# If applying recursively, you may want to skip "Library" and "Temp" below the
+# project root, so that your project itself can contain folders with those names
+**/[Ll]ibrary
+**/[Tt]emp
+**/[Bb]uild
+**/[Bb]uilds
+**/[Oo]bj
+**/[Ll]ogs
+**/[Uu]sersettings
+
+Assembly-CSharp*.csproj
+Assembly-UnityScript*.unityproj
+Unity3D*.sln
+.vscode
+
+# ========================================================================
+# git related
+**/.git
+**/.gitignore
